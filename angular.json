@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "henry": {
+    "aws-code-build1": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/henry",
+            "outputPath": "dist/aws-code-build1",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "henry:build:production"
+              "browserTarget": "aws-code-build1:build:production"
             },
             "development": {
-              "browserTarget": "henry:build:development"
+              "browserTarget": "aws-code-build1:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "henry:build"
+            "browserTarget": "aws-code-build1:build"
           }
         },
         "test": {
